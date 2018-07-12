@@ -1,0 +1,50 @@
+    
+
+
+    .back{
+    	background-color:#000;
+    	background-image:url(1.jpg);
+    	background-repeat:repeat-y;
+    	background-position:center;
+    }
+    .table{
+    	box-shadow: 5px 5px 5px #547fd4;
+      	border-radius: 10px;
+      	padding: 5px;
+        font:normal 12px Tahoma,arial;
+        border: 1px solid;
+        width:350px;
+    	height:200px;
+    	position:absolute;
+    	top:50%;
+    	right:35%;
+    }
+    .table tr td{
+        border-bottom:silver 1px solid;
+        border-right:silver 1px solid;
+        padding:0 5px 0 5px;
+    }
+    .table tr td.title{
+        font:bold 12px Tahoma,arial;
+        background-color:#4180fc;
+        color:#FFFFFF;
+    }
+   input{
+        font:normal 12px Tahoma,arial;
+    }
+    #eror{
+        width:345px;;
+        border:red 1px solid;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:5px;
+        padding:0 0 0 5px;
+    }
+    #msg{
+        width:345px;;
+        border:green 1px solid;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:5px;
+        padding:0 0 0 5px;
+    }
